@@ -136,7 +136,7 @@ body{
 }
 .mid-sect__article__svgArrow{
     position: absolute;
-    left: 0%;
+    left: 10%;
     top: 80%;
     margin-left: 5em;
     animation: arrowDown 1s alternate-reverse infinite
@@ -280,6 +280,9 @@ footer{
     .mid-sect__article__R{
         width: 90%;
         margin: 30px auto;
+    }
+    .mid-sect__article__svgArrow{
+        stroke: black;
     }
     footer{
         height: 50vh;
