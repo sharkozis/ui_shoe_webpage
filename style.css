@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins, sans-serif;
+}
+
+/* =======header style start here======= */
+/* >>>hero section styling start here<<< */
+.hero-cont{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    z-index: -1;
+}
+.hero-cont__l{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-cont__l__div{
+    padding: 5em;
+    width: 80%; 
+}
+.hero-cont__l__div h2{
+    font-size: 3rem;
+    margin-bottom: .5em;
+}
+.hero-cont__l__div p{
+    width: 95%;
+    font-size: 18px;
+}
+.hero-cont__r{
+    width: 60%;
+}
+.hero-cont__r img{
+    width: 100%
+}
+/* >>>hero section styling start here<<< */
+/* >>>navbar styling start here<<< */
+.navbar-cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+.navbar-cont h4{
+    font-size: 1.5rem;
+}
+.navbar-cont span{
+    color: red;
+}
+
+.navbar-cont__nav ul{
+    display: flex;
+}
+.navbar-cont__nav li{
+   list-style: none;
+   padding: .5em 1.7em;
+   margin-right: 2em;
+}
+.navbar-cont__nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.navbar-cont__nav a:hover{
+    text-decoration: underline;
+}
+/* >>>navbar styling end here<<< */
+/* =======header style end here======= */
