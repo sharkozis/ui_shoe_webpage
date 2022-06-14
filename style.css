@@ -49,11 +49,11 @@ body{
 }
 .navbar-cont h4{
     font-size: 1.5rem;
+    margin-left: 10em;
 }
 .navbar-cont span{
     color: red;
 }
-
 .navbar-cont__nav ul{
     display: flex;
 }
@@ -73,3 +73,66 @@ body{
 }
 /* >>>navbar styling end here<<< */
 /* =======header style end here======= */
+.free{
+    height: 100vh;
+}
+/* =======mid section styling start here======= */
+.mid-sect{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 5em;
+}
+.mid-sect__article{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.mid-sect__article__L{
+    width: 40%;
+    padding: 10em;
+}
+.mid-sect__article__L h4{
+    font-size: 2rem;
+   margin-bottom: .5em;
+   border-right: .1em solid #d5d5d5;
+}
+.mid-sect__article__L p{
+    line-height: 1.5em;
+    color: #868585;
+}
+.mid-sect__article__R{
+    width: 40%;
+}
+.mid-sect__article__R img{
+    width: 100%;
+    padding: 5em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* =======mid section styling end here======= */
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    color: white;
+}
+.footer__container{
+    height: 80%;
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end
+}
+.footer__div ul{
+    display: flex;
+    justify-content: space-around;
+}
+.footer__div ul li{
+    list-style: none;
+    padding: .3em;
+}
+.footer__div ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.footer__div ul li:hover{
+    text-decoration: underline;
+}
